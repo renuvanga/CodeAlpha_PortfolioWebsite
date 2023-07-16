@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    color:black;
+    font-family: Poppins,sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color:rgb(0,0,55);
+    color:aqua
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+.left{
+    font-size:1.5em;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin:23px 0;
+    align-items: center;
+    
+}
+.firstSection >  div{
+    width:30%;
+    
+}
+.leftSection{
+    font-size: 2.5em;
+    padding-top: 60px;
+}
+.rightSection{
+   
+}
+img{
+    width:80%;
+    margin: 41px 0;
+}
+.name{
+    color:rgb(180, 37, 151);
+}
+nav ul a{
+    text-decoration: none;
+    color:aqua;
+}
+nav ul a:hover{
+    transform: scaleX(1);
+   color:rgb(28, 28, 235);
+   font-size: 1.04rem;
+}
+#element{
+    color:rgb(180, 37, 151);
+}
+.secondSection{
+    max-width:80vw;
+    margin:auto;
+    height:80vh
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.text-grey{
+    color:grey;
+}
+.secondSection .box{
+    background-color: white;
+    width:57vw;
+    height:5px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width:1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width:23px; 
+    position:relative;
+    top:-72px;
+    left:-9px;  
+}
+.vertical-title{
+    position:relative;
+    top: -20px;
+    width: 200px;
+    left: -50px;
+    font-size:14px;
+}
+.vertical-desc{
+    position:relative;
+    top: -6px;
+    color:grey;
+    font-size:9px;
+    width:150px;
+    left: -50px;
+}
+footer{
+    background-color: rgb(11, 11, 52);
+    color:azure;
+}
+.footer{
+    display:flex;
+    padding:23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+.footer-rights{
+    text-align:center;
+    color:grey;
+    padding: 10px 0;
+}
+.leftSection .btn{
+    background-color:rgb(0, 0, 55);
+    color:aqua;
+    border:2px solid aqua;
+    font-size: 20px;
+    border-radius: 6px;
+    margin:10px;
+    height:60px;
+    width:400px;
+}
+.leftSection .buttons{
+    padding:23px;
+}
